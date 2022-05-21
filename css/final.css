@@ -1,0 +1,129 @@
+/* ----------------------------------------------------
+  Created by Christina Truong 
+  http://christinatruong.com
+-------------------------------------------------------*/
+
+
+/* GLOBAL STYLES
+-----------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+body {
+	
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; /* dark, almost black, gray colour */
+}
+h1,
+h2 {
+  font-family: "Nixie One", serif;
+  font-weight: 300; /* removes default bold styles */
+  text-transform: uppercase;
+  margin: 0; /* removes default space */
+}
+a {
+  color: #bf6d50;
+  text-decoration: none; /* removes default underline */
+}
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+header,
+main,
+nav {
+	background:rgba(217,196,237,1.00);
+  padding: 20px 30px;
+}
+.highlight {
+  color: rgba(240,8,8,0.97);
+}
+
+/* HEADER STYLES
+-----------------------------------------*/
+header h1 {
+  font-size: 48px;
+}
+header h2 {
+  font-size: 24px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  padding: 20px;
+}
+blockquote p {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    width: 80%;
+}
+blockquote{
+	clear:both;
+	padding:5px 50px;
+	text-align: center;
+	
+}
+cite{
+	font-style: italic;
+	
+	color:darkmagenta;
+}
+
+
+/* CONTACT STYLES
+-----------------------------------------*/
+.contact {
+  background: url(../images/background-8.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.contact main {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact main h1 {
+  text-transform: none;
+   }
+/* Gallery style----*/
+
+.gallery{
+	background:rgba(217,196,237,1.00);
+}
+.gallery-img{
+	width:250px;
+	height:250px;
+	border:3px solid black;
+	
+}
+.comic {
+	width:450px;
+   height:200px;
+	border:3px solid black;
+}
+.gallery p{
+	text-align: center;
+}
+
+/* FOOTER STYLES
+-----------------------------------------*/
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align:center;
+  padding: 1px;
+  margin:auto
+  text-transform: lowercase;
+}
+.hero-image {
+    width: 100%;
+	heighgt:2vh;
+}
+.profile-img {
+	float: right;
+	margin-right: 20px;
+	width: 50%;
+}
